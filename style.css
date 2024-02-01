@@ -3,6 +3,7 @@
 
 :root {
   --default-font: 'Poppins', sans-serif;
+  --primary-color: #2374EE;
 }
 
 * {
@@ -11,6 +12,22 @@
 
 a {
   text-decoration: none;
+}
+
+button {
+  border-radius: 25px;
+  border: none;
+  padding: 1rem 2rem;
+}
+
+.button--primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
 }
 
 /* Header styles */
