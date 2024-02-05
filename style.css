@@ -22,6 +22,10 @@ button {
   border-radius: 25px;
   border: none;
   padding: 1rem 2rem;
+  background: transparent;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .button--primary {
@@ -57,7 +61,7 @@ header {
 .hero__top {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 5rem;
+  padding: 5rem 0;
   background-color: var(--hero-bg-color);
 }
 
@@ -69,8 +73,21 @@ header {
 .hero__content {
   display: grid;
   gap: 2rem;
+  padding: 5rem 0 5rem 5rem;
 }
 
 .hero__image {
   grid-column: span 2 / span 2;
+  position: relative;
+}
+
+.hero__image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero__buttons {
+  display: flex;
+  gap: 1rem;
 }
