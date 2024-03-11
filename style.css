@@ -7,7 +7,10 @@
 :root {
   --default-font: 'Poppins', sans-serif;
   --primary-color: #2374EE;
+  --primary-color-dark: #063852;
   --hero-bg-color: #EBF2FF;
+  --grey-color: #9EA3AE;
+  --accent-color: #FFB700;
 }
 
 * {
