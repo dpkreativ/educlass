@@ -4,44 +4,8 @@
 /* General setup */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
 
-:root {
-  --default-font: 'Poppins', sans-serif;
-  --primary-color: #2374ee;
-  --primary-color-dark: #063852;
-  --hero-bg-color: #ebf2ff;
-  --grey-color: #9ea3ae;
-  --accent-color: #ffb700;
-}
-
-* {
-  font-family: var(--default-font);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button {
-  border-radius: 25px;
-  border: none;
-  padding: 1rem 2rem;
-  background: transparent;
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  cursor: pointer;
-}
-
-.button--primary {
-  background-color: var(--primary-color);
-  color: white;
-}
-
-nav {
-  display: flex;
-  gap: 1rem;
-}
+/* General styles */
+@import url('./global.css');
 
 /* Header styles */
 header {
@@ -152,3 +116,5 @@ header {
   background-color: #9ea3ae;
   border-radius: 1rem;
 }
+
+/* General Sections */
