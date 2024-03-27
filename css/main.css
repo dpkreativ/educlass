@@ -25,7 +25,6 @@ header {
 .logo-text {
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--primary-color-dark);
 }
 
 /* Hero styles */
@@ -45,7 +44,6 @@ header {
   display: grid;
   gap: 2rem;
   padding: 5rem 0 5rem 5rem;
-  color: var(--primary-color-dark);
 }
 
 .hero__content span {
@@ -66,10 +64,6 @@ header {
 .hero__buttons {
   display: flex;
   gap: 1rem;
-}
-
-.hero__buttons span {
-  color: var(--primary-color-dark);
 }
 
 .hero__bottom {
@@ -117,4 +111,57 @@ header {
   border-radius: 1rem;
 }
 
-/* General Sections */
+/* Feature styles */
+.features {
+  display: grid;
+  gap: 4rem;
+}
+
+.features__content {
+  display: grid;
+  gap: 4rem;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.feature--left,
+.feature--right {
+  display: grid;
+  gap: 5rem;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.feature--right .feature__image {
+  order: 2;
+}
+
+.feature--right .feature__content {
+  justify-self: right;
+}
+
+.feature__content {
+  display: grid;
+  gap: 1rem;
+  max-width: 420px;
+}
+
+.feature__content h3 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.feature__content h4 {
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.feature__content p {
+  color: var(--grey-color-dark);
+}
+
+.feature__content a {
+  color: var(--primary-color);
+  font-weight: 500;
+}

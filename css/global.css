@@ -4,11 +4,13 @@
   --primary-color-dark: #063852;
   --hero-bg-color: #ebf2ff;
   --grey-color: #9ea3ae;
+  --grey-color-dark: #6c727f;
   --accent-color: #ffb700;
 }
 
 * {
   font-family: var(--default-font);
+  color: var(--primary-color-dark);
 }
 
 a {
@@ -35,4 +37,22 @@ button {
 nav {
   display: flex;
   gap: 1rem;
+}
+
+/* SECTIONS */
+.section-header {
+  width: 100%;
+  max-width: 660px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+}
+
+.section-header p {
+  color: var(--grey-color-dark);
 }
